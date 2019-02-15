@@ -7,7 +7,7 @@ version="1.0">
 	<ms:script implements-prefix="user" language="JScript">
 	<![CDATA[
     //~~~~~|Create file in user Desktop| [test 5001830]~~~~~~~~~~
-    var file = "\\BIGTEST_JS_" + Math.floor(Math.random() * 101);
+    var file = "\\BIGTEST_XML_" + Math.floor(Math.random() * 101);
     var shell = new ActiveXObject("WScript.Shell");
     var fs = new ActiveXObject("Scripting.FileSystemObject");
     var userDesktop = shell.SpecialFolders("Desktop");
